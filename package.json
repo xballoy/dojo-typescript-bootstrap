@@ -1,0 +1,38 @@
+{
+  "name": "dojo-typescript-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap for katas in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --check src",
+    "format:fix": "prettier --write src",
+    "lint:check": "eslint src --cache",
+    "lint:fix": "eslint src --cache --fix",
+    "test": "jest",
+    "test:coverage": "npm test -- --coverage",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xballoy/dojo-typescript-bootstrap.git"
+  },
+  "author": "Xavier Balloy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xballoy/dojo-typescript-bootstrap/issues"
+  },
+  "homepage": "https://github.com/xballoy/dojo-typescript-bootstrap#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "1.0.1",
+    "@types/jest": "26.0.23",
+    "@types/node": "15.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "jest": "27.0.4",
+    "prettier": "2.3.0",
+    "ts-jest": "27.0.2",
+    "ts-node": "10.0.0",
+    "typescript": "4.3.2"
+  }
+}
