@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/xballoy/dojo-typescript-bootstrap#readme",
   "devDependencies": {
-    "@tsconfig/node16": "1.0.1",
+    "@tsconfig/node16": "1.0.2",
     "@types/jest": "26.0.24",
     "@types/node": "16.3.3",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
