@@ -1,16 +1,16 @@
 {
   "name": "dojo-typescript-bootstrap",
+  "packageManager": "yarn@3.0.0",
   "version": "1.0.0",
   "description": "Bootstrap for katas in TypeScript",
-  "main": "index.js",
   "scripts": {
     "format:check": "prettier --check src",
     "format:fix": "prettier --write src",
     "lint:check": "eslint src --cache",
     "lint:fix": "eslint src --cache --fix",
     "test": "jest",
-    "test:coverage": "npm test -- --coverage",
-    "test:watch": "npm test -- --watch"
+    "test:coverage": "yarn test --coverage",
+    "test:watch": "yarn test --watch"
   },
   "repository": {
     "type": "git",
