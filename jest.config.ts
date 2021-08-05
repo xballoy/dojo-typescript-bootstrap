@@ -23,9 +23,6 @@ const config: Config.InitialOptions = {
   // The paths to modules that run some code to configure or set up the testing environment before each test
   setupFiles: ["<rootDir>/src/jest.setup.ts"],
 
-  // The test environment that will be used for testing
-  testEnvironment: "node",
-
   // The glob patterns Jest uses to detect test files
   testMatch: ["<rootDir>/src/**/?(*.)+(spec|test).[tj]s?(x)"],
 };
